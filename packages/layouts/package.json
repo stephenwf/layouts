@@ -5,6 +5,10 @@
   "main": "dist/umd/@layouts/core.js",
   "module": "lib/index.js",
   "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
   "scripts": {
     "build": "fesk-build --cjs --umd && tsc -p ./ --emitDeclarationOnly --skipLibCheck",
     "start": "fesk-start --cjs --noServer",
