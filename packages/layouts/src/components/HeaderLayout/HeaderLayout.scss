@@ -1,0 +1,13 @@
+.HeaderLayout {
+  display: flex;
+  flex-direction: row;
+
+  &__MainHeader {
+    flex: 1 1 0px;
+  }
+
+  &__Menu {
+    flex-shrink: 0;
+  }
+
+}

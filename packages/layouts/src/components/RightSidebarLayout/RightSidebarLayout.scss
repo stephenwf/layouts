@@ -1,0 +1,10 @@
+.RightSidebarLayout {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  &__Content {
+    flex: 1 1 0px;
+  }
+  &__Actions {
+  }
+}

@@ -1,0 +1,13 @@
+.LeftNavigationLayout {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  max-height: 100%;
+  &__ContextualHeader {
+  }
+  &__NavigationBody {
+    flex: 1 1 0px;
+  }
+  &__ContextualFooter {
+  }
+}

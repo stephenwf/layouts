@@ -1,0 +1,20 @@
+.RootLayout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  max-height: 100vh;
+
+  &__Header {
+    flex-shrink: 0;
+  }
+
+  &__Content {
+    flex: 1 1 0px;
+    overflow: hidden;
+    flex-shrink: 2;
+  }
+
+  &__Footer {
+    flex-shrink: 0;
+  }
+}

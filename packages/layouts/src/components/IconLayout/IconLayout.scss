@@ -1,0 +1,17 @@
+.IconLayout {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  &__TopIcon {
+    align-self: flex-start;
+  }
+
+  &__BottomIcon {
+    align-self: flex-end;
+  }
+
+  &__Spacer {
+    margin-top: auto;
+  }
+}

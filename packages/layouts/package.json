@@ -1,0 +1,36 @@
+{
+  "name": "@layouts/core",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "dist/umd/@layouts/core.js",
+  "module": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "scripts": {
+    "build": "fesk-build --cjs --umd && tsc -p ./ --emitDeclarationOnly --skipLibCheck",
+    "start": "fesk-start --cjs --noServer",
+    "build-types": "tsc -p ./ --emitDeclarationOnly",
+    "prepublish": "NODE_ENV=production fesk-build --cjs --umd && tsc -p ./ --emitDeclarationOnly --skipLibCheck"
+  },
+  "devDependencies": {
+    "@fesk/babel-config": "^1.2.2",
+    "@fesk/scripts": "^1.2.3",
+    "webpack-bundle-analyzer": "^3.5.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@types/react": "^16.9.2",
+    "@types/react-dom": "^16.9.1",
+    "@types/react-router": "^5.1.1",
+    "@types/react-router-dom": "^5.1.0",
+    "immer": "^4.0.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-router": "^5.1.2",
+    "react-router-dom": "^5.1.2"
+  },
+  "fesk": {
+    "typescript": true
+  }
+}

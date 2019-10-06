@@ -1,0 +1,17 @@
+.MainContentLayout {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  max-height: 100%;
+
+  &__Header {
+  }
+  &__Content {
+    max-height: 100%;
+    overflow-y: scroll;
+    flex-shrink: 2;
+    -webkit-overflow-scrolling: touch;
+  }
+  &__Footer {
+  }
+}
